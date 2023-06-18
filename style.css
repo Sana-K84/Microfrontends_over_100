@@ -1,2 +1,9 @@
 @import url('nav_sticky/nav_sticky.css');
 @import url('flex_slider/flex_slider.css');
+@import url('ranger/ranger.css');
+
+section {
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+}
