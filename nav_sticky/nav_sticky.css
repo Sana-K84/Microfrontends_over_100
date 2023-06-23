@@ -18,9 +18,10 @@ body {
 }
 
 .nav {
-    background: #CA3400;
+    background: transparent;
     color: #FFF;
-    display: flex
+    display: flex;
+    z-index: 10;
 }
 
 .nav .logo {
@@ -64,6 +65,6 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    background: transparent;
+    background: rgba(160, 81, 45, 0.3);
     transition: all 0.5s;
 }
